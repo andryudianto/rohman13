@@ -14,8 +14,68 @@ header {
     display:flow-root;
 }
 
+.menu {
+    display: block;
+    padding: 0;
+    float: right;
+    margin: 0;
+}
+.top-nav {
+    overflow: auto;
+    background: #1a3d4ea6;
+    position: fixed;
+    width: 100%;
+}
+.menu li {
+    list-style: none;
+    float: left;
+    padding: 20px;
+}
+.menu li a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 20px;
+}
+.menu li a:hover{
+    background-color: #DDD;
+}
+.caption {
+    float: left;
+    max-width: 480px;
+    margin: 15px;
+    padding-top: 100px;
+}
+.backdrop {
+    background: #dfedf9;
+    display: flow-root;
+    padding: 100px 0;
+}
+.bd-image {
+    margin: 15px;
+}
+.bd-image img {
+    max-width: 50%;
+}
 /*-- service --*/
-
+.services {
+    background: url(img/bg1.jpg) no-repeat right -20%;
+}
+.services h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+.serv-image ul {
+    padding: 0;
+    margin:0;
+    text-align: center;
+}
+.serv-image ul li {
+    display: inline-block;
+    list-style: none;
+    width: 30%;
+    text-align: center;
+    color: #FFF;
+}
 /*-- our client --*/
 
 /*-- join us --*/
