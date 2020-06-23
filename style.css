@@ -229,5 +229,17 @@ footer a {
 
 /*-- responsive --*/
 @media only screen and (max-width: 1000px) {
-    
+    .bd-image {
+        background-color:rgba(0, 0, 0, 0.5)
+    }
+    .serv-image ul li {
+        display: inline;
+    }
+    .services {
+        background: #665cf0;
+        padding: 75px;
+    }
+    .services h2 {
+        color:#FFF;
+    }
   }
