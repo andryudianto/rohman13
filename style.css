@@ -34,7 +34,12 @@ header {
     position: fixed;
     width: 100%;
 }
-
+.logo img {
+    position: fixed;
+    z-index: 20;
+    width: 110px;
+    margin: 20px;
+}
 .menu li {
     list-style: none;
     float: left;
@@ -64,12 +69,13 @@ header {
     padding: 100px 0;
 }
 
+
+
 .bd-image {
     margin: 15px;
-}
-
-.bd-image img {
-    max-width: 50%;
+    background: url(img/head-image.png) right bottom no-repeat;
+    background-size: contain;
+    height: 400px;
 }
 
 /*-- service --*/
@@ -165,7 +171,7 @@ header {
 }
 .join .container {
     padding: 100px 20px;
-    margin: 70px auto;
+    margin-top: 70px;
 }
 .join h2 {
     text-align: left;
@@ -179,12 +185,49 @@ header {
 textarea.forms {
     height: 200px;
 }
+.btn {
+    width: 50%;
+}
 .join .submit {
+    display: block;
     width: 100px;
     height: 30px;
     background: #665cf0;
     border: 0;
+    float: right;
+    margin: 0;
+    color: #FFF;
+    box-shadow: 3px 3px 2px #000;
+}
+.join .submit:focus {
+    padding: 0;
+    outline: none;
+    box-shadow: none;
+}
+.join .submit:hover {
+    background: #665c90;
+    cursor: grab;
 }
 /*-- footer --*/
+footer {
+    padding: 20px 0;
+    background: #353169;
+    display: flow-root;
+}
+footer .bottom-nav {
+    float: right;
+    padding: 0 20px;
+}
+footer li {
+    display: inline-block;
+}
+footer a {
+    padding: 15px;
+    color: #FFF;
+    text-decoration: none;
+}
 
 /*-- responsive --*/
+@media only screen and (max-width: 1000px) {
+    
+  }
