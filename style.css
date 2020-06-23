@@ -229,9 +229,6 @@ footer a {
 
 /*-- responsive --*/
 @media only screen and (max-width: 1000px) {
-    .bd-image {
-        background-color:rgba(0, 0, 0, 0.5)
-    }
     .serv-image ul li {
         display: inline;
     }
@@ -242,4 +239,26 @@ footer a {
     .services h2 {
         color:#FFF;
     }
+    .caption {
+        float: left;
+        max-width: 480px;
+        margin: 92px 20px;
+        background: #ffffffd1;
+        border-radius: 20px;
+        padding: 21px;
+    }
+    .clients ul {
+        text-align: center;
+    }
+    .clients ul li {
+        display: block;
+        margin: 20px auto;
+    }
+    .forms {
+        width: 90%;
+    }
+    .btn {
+        width: 90%;
+    }
+    
   }
