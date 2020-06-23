@@ -33,6 +33,7 @@ header {
     background: #1a3d4ea6;
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 .logo img {
     position: fixed;
